@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B032264F2CB7D77000F7C2FC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B032264E2CB7D76800F7C2FC /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B08305032CB13DF30027C7B5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B032264E2CB7D76800F7C2FC /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B08304F22CB13DF00027C7B5 /* laurie epq.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "laurie epq.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B08305022CB13DF30027C7B5 /* laurie epqTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "laurie epqTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B083050C2CB13DF30027C7B5 /* laurie epqUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "laurie epqUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -75,6 +80,7 @@
 		B08304E92CB13DF00027C7B5 = {
 			isa = PBXGroup;
 			children = (
+				B032264E2CB7D76800F7C2FC /* README.md */,
 				B08304F42CB13DF00027C7B5 /* laurie epq */,
 				B08305052CB13DF30027C7B5 /* laurie epqTests */,
 				B083050F2CB13DF30027C7B5 /* laurie epqUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B032264F2CB7D77000F7C2FC /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
